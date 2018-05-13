@@ -11,34 +11,84 @@ if keep_going != "":
 else:
   while keep_going == "":
 
-  ###########################################################################
-  #                          SET THE SCORE TO ZERO                          #
-  ###########################################################################
+    ###########################################################################
+    #                          SET THE SCORE TO ZERO                          #
+    ###########################################################################
 
-  score = 0
-  score = int(score)  #Convert the 0 into a number so we can add scores
+    score = 0
+    score = int(score)  #Convert the 0 into a number so we can add scores
 
 
-  ###########################################################################
-  #                           QUESTION 1                                    #
-  ###########################################################################
+    ###########################################################################
+    #                           QUESTION 1                                    #
+    ###########################################################################
 
-  print ('QUESTION 1: What is the symbol for Hydrogen?\n')
-  print ('A. H')
-  print ('B. Y')
-  print ('C. G')
-  print ('')
+    print ('QUESTION 1: What is the symbol for Hydrogen?\n')
+    print ('A. H')
+    print ('B. Y')
+    print ('C. G')
+    print ('')
 
-  Q1answer = "A"
-  Q1response= input('Your answer : ')
+    Q1answer = "A"
+    Q1response= input('Your answer : ')
 
-  if (Q1response != Q1answer):
+    if (Q1response != Q1answer):
+        print ('Sorry, that is incorrect!')
+    else:
+        print ('Well done! ' + Q1response + ' is correct!')
+        score = score + 1
+
+    print ('Your current score is ' + str(score) + ' out of 40')
+    print ('\n-----------------------------------------------------------\n')
+
+    keep_going = input("press any key to continue or press <enter> to retry: ")
+
+    ###########################################################################
+    #                           QUESTION 2                                    #
+    ###########################################################################
+
+    print ('QUESTION 2: What is the element for the symbol He ...\n')
+    print ('A. Helium')
+    print ('B. Neon')
+    print ('C. Hydroxide')
+    print ('')
+
+    Q2answer = "A"
+    Q2response = input('Your answer : ')
+
+    if (Q2response != Q2answer):
       print ('Sorry, that is incorrect!')
-  else:
-      print ('Well done! ' + Q1response + ' is correct!')
-      score = score + 1
+    else:
+        print ('Well done! ' + Q1response + ' is correct!')
+        score = score + 1
 
-  print ('Your current score is ' + str(score) + ' out of 10')
-  print ('\n-----------------------------------------------------------\n')
+    print ('Your current score is ' + str(score) + ' out of 40')
+    print ('\n-----------------------------------------------------------\n')
 
-    keep_going = input("press <enter> to play again or anything else to quit")
+    keep_going = input("press any key to continue or press <enter> to retry: ")
+
+    ###########################################################################
+    #                           QUESTION 3                                    #
+    ###########################################################################
+
+    print ('QUESTION 2: What is the symbol for Lithium ...\n')
+    print ('A. Helium')
+    print ('B. Neon')
+    print ('C. Hydroxide')
+    print ('')
+
+    Q2answer = "A"
+    Q2response = input('Your answer : ')
+
+    if (Q2response != Q2answer):
+      print ('Sorry, that is incorrect!')
+    else:
+
+        print ('Well done! ' + Q1response + ' is correct!')
+        score = score + 1
+
+    print ('Your current score is ' + str(score) + ' out of 40')
+    print ('\n-----------------------------------------------------------\n')
+
+    keep_going = input("press any key to continue or press <enter> to retry: ")
+
