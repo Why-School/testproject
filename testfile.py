@@ -1,3 +1,5 @@
+
+
 print ('WELCOME TO THE MULTIPLE CHOICE TEST ON THE PERIOTIC TABLE\n')
 name = input('WHAT IS YOUR NAME? ')
 print ('\nHI THERE ' + name + '! LET''S PLAY A GAME!\n')
@@ -16,8 +18,7 @@ else:
     ###########################################################################
 
     score = 0
-    score = int(score)  #Convert the 0 into a number so we can add scores
-
+    score = int(score)  #Convert the 0 into a number so we can add scoresO
 
     ###########################################################################
     #                           QUESTION 1                                    #
@@ -246,7 +247,7 @@ else:
 
     print ('QUESTION 10: What is the element for the symbol Ne ...\n')
     print ('A. Nitrogen')
-    print ('B. Neox')
+    print ('B. Selenium')
     print ('C. Neon')
     print ('')
 
@@ -262,3 +263,247 @@ else:
 
     print ('Your current score is ' + str(score) + ' out of 20')
     print ('\n-----------------------------------------------------------\n')
+
+    ###########################################################################
+    #                           QUESTION 11                                   #
+    ###########################################################################
+
+    print ('QUESTION 9: What is the symbol for Sodium?  ...\n')
+    print ('A. Na')
+    print ('B. So')
+    print ('C. Di')
+    print ('')
+
+    Q2answer = "A"
+    Q2response = input('Your answer : ')
+
+    if (Q2response != Q2answer):
+      print ('Sorry, that is incorrect!')
+    else:
+
+        print ('Well done! ' + Q1response + ' is correct!')
+        score = score + 1
+
+    print ('Your current score is ' + str(score) + ' out of 20')
+    print ('\n-----------------------------------------------------------\n')
+
+    keep_going = input("press any key to continue or press <enter> to retry: ")
+
+    ###########################################################################
+    #                           QUESTION 12                                   #
+    ###########################################################################
+
+    print ('QUESTION 10: What is the element for the symbol Mg ...\n')
+    print ('A. Mgnesium')
+    print ('B. Gallium ')
+    print ('C. Magnesium')
+    print ('')
+
+    Q2answer = "C"
+    Q2response = input('Your answer : ')
+
+    if (Q2response != Q2answer):
+      print ('Sorry, that is incorrect!')
+    else:
+
+        print ('Well done! ' + Q1response + ' is correct!')
+        score = score + 1
+
+    print ('Your current score is ' + str(score) + ' out of 20')
+    print ('\n-----------------------------------------------------------\n')
+
+    ###########################################################################
+    #                           QUESTION 13                                   #
+    ###########################################################################
+
+    print ('QUESTION 9: What is the symbol for Aluminium?  ...\n')
+    print ('A. Al')
+    print ('B. Mi')
+    print ('C. Ni')
+    print ('')
+
+    Q2answer = "A"
+    Q2response = input('Your answer : ')
+
+    if (Q2response != Q2answer):
+      print ('Sorry, that is incorrect!')
+    else:
+
+        print ('Well done! ' + Q1response + ' is correct!')
+        score = score + 1
+
+    print ('Your current score is ' + str(score) + ' out of 20')
+    print ('\n-----------------------------------------------------------\n')
+
+    keep_going = input("press any key to continue or press <enter> to retry: ")
+
+    ###########################################################################
+    #                           QUESTION 14                                   #
+    ###########################################################################
+
+    print ('QUESTION 10: What is the element for the symbol  Si ...\n')
+    print ('A. Tin')
+    print ('B. Iron')
+    print ('C. Silicon ')
+    print ('')
+
+    Q2answer = "C"
+    Q2response = input('Your answer : ')
+
+    if (Q2response != Q2answer):
+      print ('Sorry, that is incorrect!')
+    else:
+
+        print ('Well done! ' + Q1response + ' is correct!')
+        score = score + 1
+
+    print ('Your current score is ' + str(score) + ' out of 20')
+    print ('\n-----------------------------------------------------------\n')
+
+    ###########################################################################
+    #                           QUESTION 15                                   #
+    ###########################################################################
+
+    print ('QUESTION 9: What is the symbol for Phosphorus ?  ...\n')
+    print ('A. Ph')
+    print ('B. Po')
+    print ('C. P')
+    print ('')
+
+    Q2answer = "C"
+    Q2response = input('Your answer : ')
+
+    if (Q2response != Q2answer):
+      print ('Sorry, that is incorrect!')
+    else:
+
+        print ('Well done! ' + Q1response + ' is correct!')
+        score = score + 1
+
+    print ('Your current score is ' + str(score) + ' out of 20')
+    print ('\n-----------------------------------------------------------\n')
+
+    keep_going = input("press any key to continue or press <enter> to retry: ")
+
+    ###########################################################################
+    #                           QUESTION 16                                   #
+    ###########################################################################
+
+    print ('QUESTION 10: What is the element for the symbol  S ...\n')
+    print ('A. Sulfur')
+    print ('B. Silicon')
+    print ('C. Sulfuric Acid ')
+    print ('')
+
+    Q2answer = "A"
+    Q2response = input('Your answer : ')
+
+    if (Q2response != Q2answer):
+      print ('Sorry, that is incorrect!')
+    else:
+
+        print ('Well done! ' + Q1response + ' is correct!')
+        score = score + 1
+
+    print ('Your current score is ' + str(score) + ' out of 20')
+    print ('\n-----------------------------------------------------------\n')
+
+    ###########################################################################
+    #                           QUESTION 17                                   #
+    ###########################################################################
+
+    print ('QUESTION 9: What is the symbol for Chlorine?  ...\n')
+    print ('A. Ch')
+    print ('B. Cl')
+    print ('C. Chl')
+    print ('')
+
+    Q2answer = "B"
+    Q2response = input('Your answer : ')
+
+    if (Q2response != Q2answer):
+      print ('Sorry, that is incorrect!')
+    else:
+
+        print ('Well done! ' + Q1response + ' is correct!')
+        score = score + 1
+
+    print ('Your current score is ' + str(score) + ' out of 20')
+    print ('\n-----------------------------------------------------------\n')
+
+    keep_going = input("press any key to continue or press <enter> to retry: ")
+
+    ###########################################################################
+    #                           QUESTION 18                                   #
+    ###########################################################################
+
+    print ('QUESTION 10: What is the element for the symbol  Ar ...\n')
+    print ('A. Arnon')
+    print ('B. Argon')
+    print ('C. Algy ')
+    print ('')
+
+    Q2answer = "B"
+    Q2response = input('Your answer : ')
+
+    if (Q2response != Q2answer):
+      print ('Sorry, that is incorrect!')
+    else:
+
+        print ('Well done! ' + Q1response + ' is correct!')
+        score = score + 1
+
+    print ('Your current score is ' + str(score) + ' out of 20')
+    print ('\n-----------------------------------------------------------\n')
+
+    ###########################################################################
+    #                           QUESTION 19                                   #
+    ###########################################################################
+
+    print ('QUESTION 9: What is the symbol for Potassium?  ...\n')
+    print ('A. P')
+    print ('B. Po')
+    print ('C. K')
+    print ('')
+
+    Q2answer = "C"
+    Q2response = input('Your answer : ')
+
+    if (Q2response != Q2answer):
+      print ('Sorry, that is incorrect!')
+    else:
+
+        print ('Well done! ' + Q1response + ' is correct!')
+        score = score + 1
+
+    print ('Your current score is ' + str(score) + ' out of 20')
+    print ('\n-----------------------------------------------------------\n')
+
+    keep_going = input("press any key to continue or press <enter> to retry: ")
+
+    ###########################################################################
+    #                           QUESTION 20                                   #
+    ###########################################################################
+
+    print ('QUESTION 10: What is the element for the symbol  Ca ...\n')
+    print ('A. Calcium')
+    print ('B. Carbon')
+    print ('C. Carbonate     ')
+    print ('')
+
+    Q2answer = "B"
+    Q2response = input('Your answer : ')
+
+    if (Q2response != Q2answer):
+      print ('Sorry, that is incorrect!')
+    else:
+
+        print ('Well done! ' + Q1response + ' is correct!')
+        score = score + 1
+
+    print ('Your current score is ' + str(score) + ' out of 20')
+    print ('\n-----------------------------------------------------------\n')
+
+
+print("Game Over")
+print("Thank you for playing, Hope You had fun")
