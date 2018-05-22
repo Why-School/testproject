@@ -2,6 +2,7 @@
 
 print ('WELCOME TO THE MULTIPLE CHOICE TEST ON THE PERIOTIC TABLE\n')
 name = input('WHAT IS YOUR NAME? ')
+print( name.lower())
 print ('\nHI THERE ' + name + '! LET''S PLAY A GAME!\n')
 print ('I will ask you 20 questions and give you three choices for each question.\n\nYou select which choice is the correct answer. E.g. A, B or C\n')
 print ('Important : Please keep your CAPS LOCK on')
@@ -20,6 +21,8 @@ else:
     score = 0
     score = int(score)  #Convert the 0 into a number so we can add scoresO
 
+    print("You current score is {}".format(score))
+
     ###########################################################################
     #                           QUESTION 1                                    #
     ###########################################################################
@@ -33,7 +36,7 @@ else:
     Q1answer = "A"
     Q1response= input('Your answer : ')
 
-    if (Q1response != Q1answer):
+    if (Q1response.lower() != Q1answer):
         print ('Sorry, that is incorrect!')
     else:
         print ('Well done! ' + Q1response + ' is correct!')
@@ -57,7 +60,7 @@ else:
     Q2answer = "A"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
         print ('Well done! ' + Q1response + ' is correct!')
@@ -81,7 +84,7 @@ else:
     Q2answer = "C"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -106,7 +109,7 @@ else:
     Q2answer = "B"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -131,7 +134,7 @@ else:
     Q2answer = "A"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -156,7 +159,7 @@ else:
     Q2answer = "A"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -181,7 +184,7 @@ else:
     Q2answer = "B"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -206,7 +209,7 @@ else:
     Q2answer = "C"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -229,7 +232,7 @@ else:
     Q2answer = "A"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -254,7 +257,7 @@ else:
     Q2answer = "C"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -277,7 +280,7 @@ else:
     Q2answer = "A"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -302,7 +305,7 @@ else:
     Q2answer = "C"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -325,7 +328,7 @@ else:
     Q2answer = "A"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -350,7 +353,7 @@ else:
     Q2answer = "C"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -373,7 +376,7 @@ else:
     Q2answer = "C"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -398,7 +401,7 @@ else:
     Q2answer = "A"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -421,7 +424,7 @@ else:
     Q2answer = "B"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -446,7 +449,7 @@ else:
     Q2answer = "B"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -469,7 +472,7 @@ else:
     Q2answer = "C"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
@@ -494,7 +497,7 @@ else:
     Q2answer = "B"
     Q2response = input('Your answer : ')
 
-    if (Q2response != Q2answer):
+    if (Q2response.lower() != Q2answer):
       print ('Sorry, that is incorrect!')
     else:
 
